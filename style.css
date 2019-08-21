@@ -1,0 +1,63 @@
+#main{
+    background:#eee;
+    display: flex;
+    flex-direction: column;
+    margin-top:40px;
+    align-items: center;
+    padding: 0;
+    margin:40px 0 40px 0;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+}
+#title{
+    text-align: center;
+    align-self: center;
+}
+#title h1{
+    font-size: 40px;
+}
+#title h4{
+    font-weight: 400;
+}
+#img-div{
+    margin: 0;
+    padding: 5% 15%;
+    background: white;
+}
+#image{
+    width: 100%;
+}
+#tribune-info{
+    padding:3% 30%;
+    text-align: justify;
+}
+
+li{
+    margin-top: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #333;
+}
+li:nth-last-child(1){
+    margin-bottom: 60px;
+}
+#tribune-info p{
+    font-style: italic;
+    color: #333;
+}
+#link{
+    font-weight: bold;
+    font-size: 20px;
+}
+@media(max-width:900px)
+{
+    #tribune-info{
+        padding:20px;
+        margin: 0 5px;
+    }
+    #link{
+        text-align: center;
+    }
+}
